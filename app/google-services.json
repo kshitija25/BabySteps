@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "688285647312",
+    "project_id": "babysteps-d3f4b",
+    "storage_bucket": "babysteps-d3f4b.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:688285647312:android:a1ffa4951777f71ca6b9d5",
+        "android_client_info": {
+          "package_name": "com.example.babysteps"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCkjUvuafntJ5jTSGwNtAGr526KyX0WKp4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

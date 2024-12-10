@@ -1,0 +1,98 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="130dp"
+                android:layout_marginHorizontal="10dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/layout_bg_wgradient"
+                android:elevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="220dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Your estimated due date is"
+                        android:textSize="14sp"
+                        android:textColor="@color/black"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="35dp"
+                        android:fontFamily="@font/poppins_semibold" />
+
+                    <TextView
+                        android:id="@+id/estDueDate"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:textColor="@color/dark_gray"
+                        android:layout_marginStart="20dp"
+                        android:fontFamily="@font/poppins_bold" />
+                </LinearLayout>
+
+                <ImageView
+                    android:layout_width="110dp"
+                    android:layout_height="90dp"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/img_calendar" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Spinner
+                android:id="@+id/monthSpinner"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:layout_weight="1" />
+
+            <Spinner
+                android:id="@+id/yearSpinner"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:layout_weight="1" />
+        </LinearLayout>
+
+        <GridView
+            android:id="@+id/daysOfWeekGridView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:numColumns="7"
+            android:verticalSpacing="10dp" />
+
+        <GridView
+            android:id="@+id/calendarGridView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:numColumns="7"
+            android:verticalSpacing="10dp"
+            android:layout_marginBottom="10dp" />
+    </LinearLayout>
+</ScrollView>

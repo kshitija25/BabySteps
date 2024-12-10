@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="5dp"
+    app:cardCornerRadius="10dp"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/layout_bg_wgradient"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tipsItemTitleTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:text="Finding Out Your Pregnant"
+            android:textAlignment="viewStart"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins_semibold"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/tipsItemDescTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="What Happens and things to think about when you're first pregnant"
+            android:textAlignment="viewStart"
+            android:textColor="@color/black"
+            android:fontFamily="@font/poppins"
+            android:textSize="12sp"/>
+
+        <TextView
+            android:id="@+id/tipsItemSourceTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="https://samplelinkforpregancy.com"
+            android:textColor="@color/dark_gray"
+            android:textSize="13sp"/>
+    </LinearLayout>
+
+</com.google.android.material.card.MaterialCardView>

@@ -1,0 +1,13 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="#FFA500" /> <!-- Orange fill -->
+        </shape>
+    </item>
+    <item>
+        <shape android:shape="oval">
+            <stroke android:width="2dp" android:color="#FF0000" /> <!-- Red outline -->
+            <solid android:color="@android:color/transparent" />
+        </shape>
+    </item>
+</layer-list>

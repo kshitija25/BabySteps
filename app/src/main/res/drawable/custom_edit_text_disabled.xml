@@ -1,0 +1,17 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top="-2dp" android:left="-2dp" android:right="-2dp">
+        <shape>
+            <solid android:color="#D2D1D1" /> <!-- Set the background color of the EditText to transparent -->
+        </shape>
+    </item>
+    <item android:bottom="2dp">
+        <shape>
+            <solid android:color="#FAFAFA" /> <!-- Set the background color of the EditText -->
+        </shape>
+    </item>
+    <item android:bottom="2dp">
+        <shape>
+            <solid android:color="#FAFAFA" /> <!-- Set the color of the bottom stroke -->
+        </shape>
+    </item>
+</layer-list>

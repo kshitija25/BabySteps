@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Add the image drawable as the background -->
+    <!-- Add the shape drawable on top of the image as an overlay -->
+    <item android:drawable="@drawable/status_container" />
+    <item android:drawable="@drawable/img_content_bg"/>
+</layer-list>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="bottom"
+    android:padding="16dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="250dp"
+        android:src="@drawable/icon2baby"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:text="Baby Steps"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="@color/BabySteps_primary"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="contact@babysteps.com"
+        android:layout_marginStart="10dp"
+        android:fontFamily="@font/poppins"
+        android:textColor="@color/BabySteps_primary"
+        android:textSize="14sp"
+        android:layout_marginBottom="16dp"/>
+
+</LinearLayout>

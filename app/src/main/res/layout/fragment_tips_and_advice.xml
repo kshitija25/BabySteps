@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TipsAndAdviceFragment"
+    android:layout_marginTop="58dp">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridLayout
+            android:id="@+id/gridLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:columnCount="4"
+            android:rowCount="16">
+
+            <TextView
+                android:layout_margin="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_columnSpan="3"
+                android:layout_marginStart="22dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Healthy Diet in Pregnancy"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:id="@+id/linearLayoutItem1"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_row="1"
+                android:layout_column="0"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/gradient_bg_x3"
+                    android:elevation="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_diet"
+                        app:tint="@color/white" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutItem2"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_row="1"
+                android:layout_column="1"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/gradient_bg_x3"
+                    android:elevation="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_vegan"
+                        app:tint="@color/white" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutItem3"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_row="1"
+                android:layout_column="2"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/gradient_bg_x3"
+                    android:elevation="5dp">
+
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_food_to_avoid"
+                        app:tint="@color/white" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutItem4"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_row="2"
+                android:layout_column="0"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/gradient_bg_x3"
+                    android:elevation="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_vitamins"
+                        app:tint="@color/white" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="3"
+                android:layout_column="0"
+                android:layout_columnSpan="3"
+                android:layout_gravity="start"
+                android:layout_marginStart="22dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Exercise in Pregnancy"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:id="@+id/linearLayoutItem5"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_row="4"
+                android:layout_column="0"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/gradient_bg_x3"
+                    android:elevation="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_healthy_preggy"
+                        app:tint="@color/white" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="5"
+                android:layout_column="0"
+                android:layout_columnSpan="3"
+                android:layout_gravity="start"
+                android:layout_marginStart="22dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Mental State during Pregnancy"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:id="@+id/linearLayoutItem6"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_row="6"
+                android:layout_column="0"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/gradient_bg_x3"
+                    android:elevation="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_mental_health"
+                        app:tint="@color/white" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutItem7"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_row="6"
+                android:layout_column="1"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/gradient_bg_x3"
+                    android:elevation="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_depression"
+                        app:tint="@color/white" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="7"
+                android:layout_column="0"
+                android:layout_columnSpan="3"
+                android:layout_gravity="start"
+                android:layout_marginStart="22dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Sex during Pregnancy"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:id="@+id/linearLayoutItem8"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_row="8"
+                android:layout_column="0"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/gradient_bg_x3"
+                    android:elevation="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_sex"
+                        app:tint="@color/white" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="9"
+                android:layout_column="0"
+                android:layout_columnSpan="3"
+                android:layout_gravity="start"
+                android:layout_marginStart="22dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Travelling in Pregnancy"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:id="@+id/linearLayoutItem9"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_row="11"
+                android:layout_column="0"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/gradient_bg_x3"
+                    android:elevation="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_travel"
+                        app:tint="@color/white" />
+                </RelativeLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="12"
+                android:layout_column="0"
+                android:layout_columnSpan="3"
+                android:layout_gravity="start"
+                android:layout_marginStart="22dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Work and Pregnancy"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:id="@+id/linearLayoutItem10"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_row="13"
+                android:layout_column="0"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:layout_marginBottom="50dp"
+                    android:background="@drawable/gradient_bg_x3"
+                    android:elevation="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/ic_work"
+                        app:tint="@color/white" />
+                </RelativeLayout>
+            </LinearLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_row="14"
+                android:layout_column="0"
+                android:layout_columnSpan="3"
+                android:layout_gravity="start"
+                android:layout_marginStart="22dp"
+                android:fontFamily="@font/poppins_semibold"
+                android:text="Baby Names"
+                android:textAlignment="viewStart"
+                android:textColor="@color/black"
+                android:textSize="16sp" />
+
+            <LinearLayout
+                android:id="@+id/linearLayoutBabyNames"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_row="15"
+                android:layout_column="0"
+                android:layout_margin="5dp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:background="@drawable/gradient_bg_x3"
+                    android:elevation="5dp">
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/suggesting_name_icon"
+                        />
+                </RelativeLayout>
+            </LinearLayout>
+
+        </GridLayout>
+    </androidx.core.widget.NestedScrollView>
+</RelativeLayout>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- grid_item_calendar.xml -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/dayTextView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="10dp"
+        android:paddingBottom="10.5dp"
+        android:gravity="center"
+        android:fontFamily="@font/poppins"
+        android:textColor="@android:color/black"
+        android:textSize="18sp" />
+
+</FrameLayout>

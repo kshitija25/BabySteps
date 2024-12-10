@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="BottomNavStyle" parent="Widget.MaterialComponents.BottomNavigationView">
+        <item name="android:scaleType">centerInside</item>
+    </style>
+    <style name="CustomDialogButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/gradient_bg</item>
+        <item name="android:textColor">@color/white</item>
+        <!-- Add any other desired button attributes -->
+    </style>
+</resources>

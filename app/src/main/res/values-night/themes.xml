@@ -1,0 +1,114 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Theme.BabySteps" parent="Theme.MaterialComponents.Light.NoActionBar">
+<!--        &lt;!&ndash; Primary brand color. &ndash;&gt;-->
+<!--        <item name="colorPrimary">@color/purple_200</item>-->
+<!--        <item name="colorPrimaryVariant">@color/purple_700</item>-->
+<!--        <item name="colorOnPrimary">@color/black</item>-->
+<!--        &lt;!&ndash; Secondary brand color. &ndash;&gt;-->
+<!--        <item name="colorSecondary">@color/teal_200</item>-->
+<!--        <item name="colorSecondaryVariant">@color/teal_200</item>-->
+<!--        <item name="colorOnSecondary">@color/black</item>-->
+<!--        &lt;!&ndash; Status bar color. &ndash;&gt;-->
+<!--        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>-->
+<!--        &lt;!&ndash; Customize your theme here. &ndash;&gt;-->
+
+        <item name="android:statusBarColor" tools:targetApi="l">#FFFFFF</item>
+        <item name="android:navigationBarColor" tools:targetApi="l">#FFFFFF</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+    </style>
+
+    <!-- SplashScreen -->
+    <style name="SplashScreen" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor" tools:targetApi="l">#FFFFFF</item>
+        <item name="android:navigationBarColor" tools:targetApi="l" tools:ignore="ObsoleteSdkInt">#FFFFFF</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+    </style>
+
+    <!-- WelcomeUser -->
+    <style name="WelcomeUser" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor" tools:targetApi="l">#FFFFFF</item>
+        <item name="android:navigationBarColor" tools:targetApi="l">#FFFFFF</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+    </style>
+
+    <!-- TermsAndConditions -->
+    <style name="TermsAndConditions" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor" tools:targetApi="l">#FFFFFF</item>
+        <item name="android:navigationBarColor" tools:targetApi="l">#FFFFFF</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+    </style>
+
+    <!-- LoginAccount -->
+    <style name="LoginAccount" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor" tools:targetApi="l">#FFFFFF</item>
+        <item name="android:navigationBarColor" tools:targetApi="l">#FFFFFF</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+    </style>
+
+    <!-- CreateAccount -->
+    <style name="CreateAccount" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor" tools:targetApi="l">#FFFFFF</item>
+        <item name="android:navigationBarColor" tools:targetApi="l">#FFFFFF</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+    </style>
+
+    <!-- MomExperience -->
+    <style name="MomExperience" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor" tools:targetApi="l">#FFFFFF</item>
+        <item name="android:navigationBarColor" tools:targetApi="l">#FFFFFF</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+    </style>
+
+    <!-- BirthYearPicker -->
+    <style name="BirthYearPicker" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor" tools:targetApi="l">#FFFFFF</item>
+        <item name="android:navigationBarColor" tools:targetApi="l">#FFFFFF</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+    </style>
+
+    <!-- ProfileCreation -->
+    <style name="ProfileCreation" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor" tools:targetApi="l">#FFFFFF</item>
+        <item name="android:navigationBarColor" tools:targetApi="l">#FFFFFF</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+    </style>
+
+    <!-- OfficialWelcome -->
+    <style name="OfficialWelcome" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor" tools:targetApi="l">#FFFFFF</item>
+        <item name="android:navigationBarColor" tools:targetApi="l">#FFFFFF</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+    </style>
+
+    <!-- Homepage -->
+    <style name="Homepage" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:statusBarColor" tools:targetApi="l">#FFFFFF</item>
+        <item name="android:navigationBarColor" tools:targetApi="l">#FFFFFF</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:windowLightNavigationBar" tools:targetApi="o_mr1">true</item>
+    </style>
+
+    <style name="Theme.BabySteps.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.BabySteps.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+    <style name="Theme.BabySteps.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+  <!-- Base application theme. -->
+    <style name="Base.Theme.BabySteps" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your dark theme here. -->
+        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    </style>
+</resources>

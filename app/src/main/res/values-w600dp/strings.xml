@@ -1,0 +1,142 @@
+<resources>
+    <string name="app_name">BabySteps</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="log_in">Log in</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="let_s_create_you_an_account_first">Let\'s create you an account first</string>
+    <string name="create_account">Create Account</string>
+    <string name="log_in_with_google">Log in with Google</string>
+    <string name="google_logo">Google Logo</string>
+    <string name="sign_in_to_continue">Sign in to continue.</string>
+    <string name="welcome">Welcome!</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="reset_password_button">Reset</string>
+    <string name="type_your_email_to_reset_password">Type your email to reset password</string>
+    <string name="let_s_get_started">Let\'s get started!</string>
+    <string name="yes_i_am_a_first_time_mom">Yes, I am a first time mom</string>
+    <string name="no_i_have_had_children_before">No, I have had children before</string>
+    <string name="user_agreement">User Agreement</string>
+    <string name="i_agree_to_privacy_policy_and_terms_of_use">I agree to Privacy Policy and Terms of Use.</string>
+    <string name="i_agree_to_processing_of_my_personal_health_data_for_providing_me_baby_steps_functions_see_more_in_privacy_policy">I agree to processing of my personal health data for providing me Baby Steps functions. See more in Privacy Policy.</string>
+    <string name="next">Next</string>
+    <string name="welcome_image">Welcome Image</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_birthyear_picker">BirthyearPicker</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="next_birth_year">Next</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="create_an_account_and_dive_in">Create an account and dive in</string>
+    <string name="create_with_google">Create with Google</string>
+    <string name="already_have_an_account">Already have an account?</string>
+    <string name="or">or</string>
+    <string name="what_s_your_birth_year">What\'s your birth year?</string>
+    <string name="birthyear_exp">To better understand your needs and offer you personalized assistance, BabySteps kindly requests you to share your birthdate with us.</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="email">Email</string>
+    <string name="creating_your_profile">Creating your profile...</string>
+    <string name="hi_there_mommy">Hi there, Mommy!</string>
+    <string name="welcome_message">Welcome to BabySteps, the ultimate app for soon-to-be mothers, for wonder mothers, and for all amazing women like you! 🎉 We\'re thrilled to have you join our community of amazing women who are embarking on the beautiful journey of motherhood.</string>
+    <string name="continue_btn">Continue</string>
+    <string name="home">Home</string>
+    <string name="calendar">Calendar</string>
+    <string name="nearest_hospital">Nearest Hospital</string>
+    <string name="tips_and_advice">Tips and Advice</string>
+    <string name="open_nav">Open Navigation Drawer</string>
+    <string name="close_nav">Close Navigation Drawer</string>
+    <string name="profile">Profile</string>
+    <string name="settings">Settings</string>
+    <string name="about_us">About Us</string>
+    <string name="logout">Logout</string>
+    <string name="password_does_not_match">Password does not match!</string>
+    <string name="the_expected_due_date_is_an_important_milestone_that_marks_the_approximate_time_when_your_baby_is_expected_to_arrive">The expected due date is an important milestone that marks the approximate time when your baby is expected to arrive.</string>
+    <string name="when_is_your_expected_due_date">When is your expected due date?</string>
+    <string name="i_don_t_know_when_is_my_due_date">I don\'t know when is my due date</string>
+    <string name="i_don_t_know_when_is_nmy_due_date">I don\'t know when is\nmy due date</string>
+    <string name="view_your_calendar">View your calendar</string>
+    <string name="stay_organized_and_keep_track_of_important_dates_and_milestones_throughout_your_pregnancy">Stay organized and keep track of important dates and milestones throughout your pregnancy.</string>
+    <string name="hospital_tagline">Feel confident knowing you have access to nearby healthcare options whenever you need them.</string>
+    <string name="know_the_hospitals_near_you">Know the hospitals near you</string>
+    <string name="tipsnadvice_desc">Our app offers a wealth of curated tips and advice tailored specifically to your stage of pregnancy.</string>
+    <string name="learn">Learn from the Tips and\nAdvice just for you</string>
+    <string name="know_the_hospitals_nnear_you">Know the hospitals \nnear you!</string>
+    <string name="scrollable_content">Scrollable content</string>
+
+    <!-- Strings used for tipsItem in Tips and Advice Fragment RecyclerView -->
+
+    <!-- TipsItemTitleTextView -->
+    <string name="itemTitle_1">Have a healthy diet in pregnancy</string>
+    <string name="itemTitle_2">Vegetarian or Vegan and Pregnancy</string>
+    <string name="itemTitle_3">Foods to avoid in pregnancy</string>
+    <string name="itemTitle_4">Vitamins, supplements and nutrition in pregnancy</string>
+    <string name="itemTitle_5">Exercise in pregnancy</string>
+    <string name="itemTitle_6">Mental Health in Pregnancy</string>
+    <string name="itemTitle_7">Depression in Pregnancy</string>
+    <string name="itemTitle_8">Sex in Pregnancy</string>
+    <string name="itemTitle_9">Travelling in Pregnancy</string>
+    <string name="itemTitle_10">Work and pregnancy</string>
+    <string name="itemTitle_11">Drinking Alcohol while pregnant</string>
+    <string name="itemTitle_12">Stop smoking in pregnancy</string>
+    <string name="itemTitle_13">Illegal drugs in pregnancy</string>
+    <string name="itemTitle_14">Your baby movement</string>
+    <string name="itemTitle_15">Infections and illnesses</string>
+    <string name="itemTitle_16">Infections in pregnancy that may affect your baby</string>
+    <string name="itemTitle_17">Pregnancy and coronavirus</string>
+    <string name="itemTitle_18">Medicines in pregnancy</string>
+    <string name="itemTitle_19">Vaccinations in pregnancy</string>
+    <string name="itemTitle_20">Pregnancy, breastfeeding, fertility and COVID-19 Vaccination</string>
+    <string name="itemTitle_21">The flu jab in pregnancy</string>
+    <string name="itemTitle_22">Whooping cough vaccination in pregnancy</string>
+
+    !-- TipsItemDescTextView -->
+    <string name="itemDesc_1">A healthy diet is an important part of a healthy lifestyle at any time but is especially vital if you are pregnant or planning a pregnancy. Eating healthily during pregnancy will help your baby to develop and grow. You do not need to go on a special diet, but it is important to eat a variety of different foods every day to get the right balance of nutrients that you and your baby need. It is best to get vitamins and minerals from the foods you eat, but when you are pregnant you need to take a folic acid supplement as well, to make sure you get everything you need.</string>
+    <string name="itemDesc_2">Eating healthily during pregnancy is important for your own health and the health of your developing baby. It is important to eat a varied and balanced diet during pregnancy to provide enough nutrients for you and the development and growth of your baby. If you are pregnant and a vegetarian or vegan, you need to make sure you get enough iron and vitamin B12, which are mainly found in meat and fish, and vitamin D, calcium and iodine.</string>
+    <string name="itemDesc_3">Most foods and drinks are safe to have during pregnancy. But there are some things you should be careful with or avoid.</string>
+    <string name="itemDesc_4">Eating a healthy, varied diet in pregnancy will help you get most of the vitamins and minerals you need. But when you are pregnant, or there is a chance you might get pregnant, it’s important to also take a folic acid supplement.It is recommended that you take: 400 micrograms of folic acid every day – from before you are pregnant until you are 12 weeks pregnant this is to reduce the risk of problems in the baby development in the early weeks of pregnancy.It is also recommended that you take a daily vitamin D supplement. Do not take cod liver oil or any supplements containing vitamin A (retinol) when you are pregnant. Too much vitamin A could harm your baby. Always check the label.</string>
+    <string name="itemDesc_5">The more active and fit you are during pregnancy, the easier it will be for you to adapt to your changing shape and weight gain. It will also help you to cope with labour. Keep up your normal daily physical activity or exercise (sport, running, yoga, dancing, or even walking to the shops and back) for as long as you feel comfortable. Exercise is not dangerous for your baby. There is evidence that active women are less likely to experience problems in later pregnancy and labour.</string>
+    <string name="itemDesc_6">Being pregnant is a big life event and it is natural to feel a lot of different emotions. But if you’re feeling sad and it’s starting to affect your life, there are things you can try that may help.</string>
+    <string name="itemDesc_7">You can get depression when you are pregnant. This is called antenatal depression. With help and support most people with antenatal depression are able to manage the condition.</string>
+    <string name="itemDesc_8">It is perfectly safe to have sex during pregnancy unless your doctor or midwife has told you not to. Having sex will not hurt your baby. A penis or penetrative sex toy cannot penetrate beyond your vagina, and the baby cannot tell what is going on. However, it is normal for your sex drive to change during pregnancy. This is not something to worry about, but it is helpful to talk about it with your sexual partner. You may find having sex very enjoyable during pregnancy, or simply feel you do not want to. You can find other ways of being loving or making love. The most important thing is to talk about your feelings with your partner. If your pregnancy is normal and you have no complications, having sex and orgasms will not increase your risk of going into labour early or cause a miscarriage. Later in pregnancy, an orgasm or even sex itself can set off mild contractions. If this happens, you will feel the muscles of your womb go hard. These are known as Braxton Hicks contractions and can be uncomfortable, but they are perfectly normal and there is no need for alarm. You might want to try some relaxation techniques or just lie down until the contractions pass.</string>
+    <string name="itemDesc_9">With the proper precautions such as travel insurance, most women can travel safely well into their pregnancy.Wherever you go, find out what healthcare facilities are at your destination in case you need urgent medical attention. It is a good idea to take your maternity medical records (sometimes called handheld notes) with you so you can give doctors the relevant information if necessary.</string>
+    <string name="itemDesc_10">If you are working while you are pregnant, you need to know your rights to antenatal care, maternity leave and benefits. If you have any worries about your health while at work, talk to your doctor, midwife or occupational health nurse. If there are any risks, they have to make reasonable adjustments to remove them. This can include changing your working hours. If you work with chemicals, lead or X-rays, or in a job with a lot of lifting, it may be illegal for you to continue to work. In this case, your employer must offer you alternative work on the same terms and conditions as your original job. If there is no safe alternative, your employer should suspend you on full pay (give you paid leave) for as long as necessary to avoid the risk. If your employer fails to pay you during your suspension, you can bring a claim in an employment tribunal (within 3 months). This would not affect your maternity pay or maternity leave.</string>
+    <string name="itemDesc_11">It is recommended that if you are pregnant or planning to become pregnant you should not drink alcohol. This will keep any risk to your baby to a minimum. Drinking in pregnancy can lead to long-term harm to the baby, with the more you drink, the greater the risk.</string>
+    <string name="itemDesc_12">Smoking and your unborn baby. Protecting your baby from tobacco smoke is one of the best things you can do to give your child a healthy start in life. It can be difficult to stop smoking, but it is never too late to quit. Every cigarette you smoke contains over 4,000 chemicals, many of which are dangerous, so smoking when you are pregnant harms your unborn baby. Cigarettes can restrict the essential oxygen supply to your baby. As a result, their heart must beat harder every time you smoke.</string>
+    <string name="itemDesc_13">Using illegal or street drugs during pregnancy, including cannabis, ecstasy, cocaine and heroin, could have a serious effect on your unborn baby. If you regularly use drugs, it is important to tackle this now you are pregnant. If you regularly use cocaine, heroin, or other similar drugs (opiates or opioids), do not stop or reduce the amount you take without speaking to a doctor first. It’s important to withdraw from these drugs in the right way to reduce the risk of problems for you and your baby.</string>
+    <string name="itemDesc_14">When you will feel your baby move. You should start to feel your baby move between around 16 to 24 weeks of pregnancy. If this is your first baby, you might not feel movements until after 20 weeks. If you have not felt your baby move by 24 weeks, tell your midwife. They will check your baby heartbeat and movements. You should feel your baby move right up to and during labour. Other people cannot feel your baby move as early as you can. When they can feel the movements, by putting a hand on your bump, is different for everyone.</string>
+    <string name="itemDesc_15">Stillbirth is when a baby dies before she or he is born, after 24 weeks of pregnancy. In England, around 1 in 250 births is a stillbirth. Not all the causes of stillbirth are currently known and it is not possible to prevent every stillbirth. But we do know that certain factors increase the risk, and there are simple things you can do to reduce these risks.</string>
+    <string name="itemDesc_16">Throughout life, we all encounter many viruses and bacteria. This page is about infections that can cause problems in pregnancy, their symptoms and what to do if you are worried.</string>
+    <string name="itemDesc_17">If you are pregnant, you are at higher risk of getting seriously ill from coronavirus (COVID-19). If you get COVID-19 late in your pregnancy, your baby could also be at risk. It is important to tell your midwife or maternity team if you have symptoms of COVID-19. They can give you support and advice and you can speak to them about any concerns.</string>
+    <string name="itemDesc_18">Most medicines taken during pregnancy cross the placenta and reach the baby. Before taking any medicine when you are pregnant, including painkillers, check with your pharmacist, midwife or GP that it is suitable. When deciding whether to take a medicine during pregnancy, it is important to find out about the possible effects of that medicine on your baby. This is the case both for medicines prescribed by a doctor and for medicines you buy from a pharmacy or shop.</string>
+    <string name="itemDesc_19">Some vaccines, such as the inactivated seasonal flu vaccine and the whooping cough vaccine, are recommended during pregnancy to protect the health of you and your baby. An inactivated vaccine does not contain a live version of the virus it is protecting against. Some vaccines, such as the tetanus vaccine, are perfectly safe to have during pregnancy if necessary. But it does depend on the type of vaccination. For example, the MMR and yellow fever vaccines have potential risks, and you need to discuss these with your midwife or doctor before deciding whether to have the vaccine.</string>
+    <string name="itemDesc_20">It is strongly recommended that you get vaccinated against COVID-19 if you are pregnant or breastfeeding.</string>
+    <string name="itemDesc_21">It is recommended that all pregnant women have the flu vaccine, whatever stage of pregnancy they are at. It is free for pregnant women.</string>
+    <string name="itemDesc_22">Whooping cough (pertussis) rates have risen sharply in recent years and babies who are too young to start their vaccinations are at greatest risk. Young babies with whooping cough are often very unwell and most will be admitted to hospital because of their illness. When whooping cough is particularly severe, they can die. Pregnant women can help protect their babies by getting vaccinated – ideally from 16 weeks up to 32 weeks pregnant. If for any reason you miss having the vaccine, you can still have it up until you go into labour.</string>
+
+    <!-- tipsItemSourceTextView -->
+    <string name="itemSource_1">Read more: www.nhs.uk/pregnancy</string>
+    <string name="itemSource_2">Read more: www.nhs.uk/pregnancy</string>
+    <string name="itemSource_3">Read more: www.nhs.uk/pregnancy</string>
+    <string name="itemSource_4">Read more: www.nhs.uk/pregnancy</string>
+    <string name="itemSource_5">Read more: www.nhs.uk/pregnancy</string>
+    <string name="itemSource_6">Read more: www.nhs.uk/pregnancy</string>
+    <string name="itemSource_7">Read more: www.nhs.uk/pregnancy</string>
+    <string name="itemSource_8">Read more: www.nhs.uk/pregnancy</string>
+    <string name="itemSource_9">Read more: www.nhs.uk/pregnancy</string>
+    <string name="itemSource_10">Read more: www.nhs.uk/pregnancy</string>
+
+    <string name="google_maps_key">AIzaSyCkjUvuafntJ5jTSGwNtAGr526KyX0WKp4</string>
+    <string name="retry">Retry</string>
+    <string name="exit">Exit</string>
+    <string name="please_connect">Please check your internet connection and try again.</string>
+    <string name="no_internet_connection">No Internet Connection</string>
+    <string name="about_us_texts">Baby Steps app aims to accompany moms and expectant moms and those who are trying to conceive and help them on their motherhood journey. From calendar tracker to stage-by-stage guidance and health facts and trivia about their ovulation cycle, overall pregnancy, and even after childbirth.</string>
+
+
+</resources>

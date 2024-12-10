@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TermsAndConditions">
+
+    <TextView
+        android:id="@+id/userAgreement"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/user_agreement"
+        android:textAlignment="center"
+        android:textColor="#000"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/checkbox1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.705" />
+
+    <TextView
+        android:id="@+id/termsAndConditions"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:fontFamily="@font/poppins"
+        android:gravity="center"
+        android:text="Privacy Policy and\nTerms of Use"
+        android:textColor="@color/BabySteps_primary"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkbox2"
+        app:layout_constraintVertical_bias="0.21" />
+
+    <CheckBox
+        android:id="@+id/checkbox2"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="top"
+        android:paddingStart="5dp"
+        android:paddingEnd="10dp"
+        android:text="@string/i_agree_to_processing_of_my_personal_health_data_for_providing_me_baby_steps_functions_see_more_in_privacy_policy"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.496" />
+
+    <CheckBox
+        android:id="@+id/checkbox1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:gravity="top"
+        android:paddingStart="5dp"
+        android:text="@string/i_agree_to_privacy_policy_and_terms_of_use"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/checkbox2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.854" />
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:enabled="false"
+        android:fontFamily="@font/poppins_semibold"
+        android:text="@string/next"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        app:cornerRadius="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:rippleColor="@color/BabySteps_secondary" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
